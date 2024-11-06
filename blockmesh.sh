@@ -3,9 +3,9 @@
 # Detect system architecture
 ARCH=$(uname -m)
 if [ "$ARCH" = "aarch64" ]; then
-    CLI_URL="https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.339/blockmesh-cli-aarch64-unknown-linux-gnu.tar.gz"
+    CLI_URL="https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.340/blockmesh-cli-aarch64-unknown-linux-gnu.tar.gz"
 elif [ "$ARCH" = "x86_64" ]; then
-    CLI_URL="https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.339/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz"
+    CLI_URL="https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.340/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz"
 else
     echo "Unsupported architecture."
     exit 1
